@@ -1,0 +1,9 @@
+# ---- ไม่ push node_modules ขึ้น GitHub (ข้อกำหนดใน Brief) ----
+node_modules/
+dist/
+build/
+
+# ---- ไฟล์ environment และ log ----
+.env.local
+*.log
+.DS_Store
