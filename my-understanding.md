@@ -165,7 +165,7 @@ useEffect(() => {
   const timer = setTimeout(loadProducts, 300);
   return () => clearTimeout(timer);
 }, [loadProducts]);
-```
+
 
 ทำไมต้อง `useEffect`: การ fetch เป็น *side effect* คืองานที่อยู่นอกโลกของการคำนวณ UI
 React ออกแบบให้ function component ทำหน้าที่ "รับ state แล้วคืน JSX" เท่านั้น
